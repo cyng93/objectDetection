@@ -13,7 +13,7 @@
 //#define sourceWebcam
 #define userInput
 #define scaleInputOn        // WIDTH=16*n    HEIGHT=9*n
-#define jumpFrame 30
+#define jumpFrame 90
 #define outputCorrect
 #define numOfTolerant 3
 
@@ -39,7 +39,7 @@ double numOfCorrectFrame = 0;
 String videoFilename = "testVideo/oriVideo.mov";
 int scaleInput = 40;
 #ifdef outputCorrect
-String outputFilePrefix  = "./correctFrame/frame_";
+String outputFilePrefix  = "./outputFrame/frame_";
 String outputFileType = ".png";
 stringstream ss;
 String outputFilename;
@@ -144,7 +144,8 @@ void detectAndDisplay( Mat frame )
 #else
     frameCount
 #endif
-    << "] frame #" << frameCount << " : " << objs.size() << endl;
+    << "] frame #" << frameCount << " : " << endl 
+	<< " " << obj_cascade_name << ": " << objs.size() << " ; " << obj2_cascade_name << ": " << objs2.size() << endl;
 
     for( size_t i = 0; i < objs.size() ; i++ )
     {
@@ -161,7 +162,7 @@ void detectAndDisplay( Mat frame )
 
     }
     //-- Show what you got
-    imshow( window_name, frame );
+    //imshow( window_name, frame );
 
     //if(objs.size() <= numOfTolerant)
     if(objs.size())

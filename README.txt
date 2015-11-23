@@ -1,0 +1,3 @@
+SIMPLY 
+	$ cmake . && make .
+
