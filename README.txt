@@ -1,3 +1,3 @@
 SIMPLY 
-	$ cmake . && make .
+	$ cmake . && make 
 
