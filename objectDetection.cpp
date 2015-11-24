@@ -17,10 +17,10 @@
 //#define sourceWebcam
 #define userInput
 #define scaleInputOn        // WIDTH=16*n    HEIGHT=9*n
-#define jumpFrame 30
+//#define jumpFrame 30
 #define outputFrame
 #define numOfTolerant 2
-#define multiDetect
+//#define multiDetect
 #define parallel
 
 using namespace std;
@@ -36,6 +36,9 @@ String obj_cascade_name = "classifier/frontal_pos3000_stg14.xml";
 String obj2_cascade_name = "classifier/frontal_pos3000_stg20.xml";
 String obj3_cascade_name = "classifier/frontal_pos3000_stg30.xml";
 
+FileStorage fs1(obj_cascade_name, cv::FileStorage::READ);
+FileStorage fs2(obj2_cascade_name, cv::FileStorage::READ);
+FileStorage fs3(obj3_cascade_name, cv::FileStorage::READ);
 
 string window_name = "Object detection";
 RNG rng(12345);
@@ -72,6 +75,8 @@ int main( int argc, char **argv  )
     VideoCapture capture;
     int i;
     pthread_t *threadPool;
+
+
 
     numOfCores = get_nprocs();
 
@@ -136,9 +141,13 @@ void * handler(void* parameters)
     frameCount = (myThreadIndex * framePerThread);
 
     //-- 1. Load the cascades
-    if( !obj_cascade.load( obj_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-    if( !obj2_cascade.load( obj2_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-    if( !obj3_cascade.load( obj3_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    //if( !obj_cascade.load( obj_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    //if( !obj2_cascade.load( obj2_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    //if( !obj3_cascade.load( obj3_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+
+    if( !obj_cascade.read( fs1.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    if( !obj2_cascade.read( fs2.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    if( !obj3_cascade.read( fs3.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
 
     //-- 2. Read the video stream
     capture.open( videoFilename );
@@ -214,7 +223,7 @@ void * handler(void* parameters)
             }
         #endif
             //-- Show what you got
-            //imshow( window_name, frame );
+            imshow( window_name, frame );
 
             if( objs.size() <= numOfTolerant
             #ifdef multiDetect
