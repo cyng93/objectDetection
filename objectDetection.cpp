@@ -36,7 +36,7 @@ String obj_cascade_name = "classifier/frontal_pos3000_stg14.xml";
 String obj2_cascade_name = "classifier/frontal_pos3000_stg20.xml";
 String obj3_cascade_name = "classifier/frontal_pos3000_stg30.xml";
 
-CascadeClassifier obj_cascade, obj2_cascade, obj3_cascade;
+
 string window_name = "Object detection";
 RNG rng(12345);
 
@@ -75,12 +75,7 @@ int main( int argc, char **argv  )
 
     numOfCores = get_nprocs();
 
-    //-- 1. Load the cascades
-    if( !obj_cascade.load( obj_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
-    if( !obj2_cascade.load( obj2_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
-    if( !obj3_cascade.load( obj3_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
-
-    //-- 2. Get Num Of Frames
+    //-- 0. Get Num Of Frames
     capture.open( videoFilename );
     if( !capture.isOpened() ){
         cout << "Fail to open video file" << endl;
@@ -130,6 +125,7 @@ void * handler(void* parameters)
 
     VideoCapture capture;
     Mat frame;
+    CascadeClassifier obj_cascade, obj2_cascade, obj3_cascade;
 
     // each thread getting their own index
     pthread_mutex_lock(&threadIndexLock);
@@ -138,6 +134,11 @@ void * handler(void* parameters)
     pthread_mutex_unlock(&threadIndexLock);
 
     frameCount = (myThreadIndex * framePerThread);
+
+    //-- 1. Load the cascades
+    if( !obj_cascade.load( obj_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    if( !obj2_cascade.load( obj2_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+    if( !obj3_cascade.load( obj3_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
 
     //-- 2. Read the video stream
     capture.open( videoFilename );
