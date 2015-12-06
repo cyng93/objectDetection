@@ -15,7 +15,7 @@
 #include <sys/sysinfo.h>
 
 #define scaleInput 40        // WIDTH=16*n    HEIGHT=9*n
-#define jumpFrame 600        // uncomment to detect all frame
+#define jumpFrame 30        // uncomment to detect all frame
 #define outputFrame         // uncomment to disable writing frame to directory
 #define numOfTolerant 2
 #define multiDetect         // uncomment to detect with only one classifier
@@ -36,22 +36,28 @@ void *handler(void* parameters);
 /** Global variables */
 //-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
 String obj_cascade_name = "classifier/frontal_pos3000_stg14.xml";
-String obj2_cascade_name = "classifier/frontal_pos3000_stg20.xml";
-String obj3_cascade_name = "classifier/frontal_pos3000_stg30.xml";
+String obj2_cascade_name = "classifier/frontal_pos5000_stg14.xml";
+String obj3_cascade_name = "classifier/frontal_pos7000_stg14.xml";
 
 
 string window_name = "Object detection";
 RNG rng(12345);
 
-unsigned long frameCount = 0;
-unsigned long numOfFrame = 0;
-unsigned long numOfCorrectFrame = 0;
-#ifdef multiDetect
-unsigned long numOfCorrectFrame_2 = 0;
-unsigned long numOfCorrectFrame_3 = 0;
+unsigned long long frameCount = 0;
+unsigned long long numOfFrame = 0;
+unsigned long long numOfObject = 0;
 
+unsigned long long numOfHit = 0;
+unsigned long long numOfFalseDetect = 0;
+#ifdef multiDetect
+unsigned long long numOfHit_2 = 0;
+unsigned long long numOfHit_3 = 0;
+unsigned long long numOfFalseDetect_2 = 0;
+unsigned long long numOfFalseDetect_3 = 0;
 #endif
+
 String videoFilename = "testVideo/oriVideo.mov";
+String answerFilename = "answer.txt";
 
 #ifdef outputFrame
 String outputFilePrefix  = "./outputFrame/frame_";
@@ -61,21 +67,25 @@ String outputFilename;
 #endif
 
 #ifdef parallel
-typedef struct partialCorrect_padding_t{
-    unsigned long threadPartialCorrect;     // 8 bytes
+typedef struct partialResult_padding_t{
+    unsigned long long threadPartialNumOfObject;   // 8 bytes
+    unsigned long long threadPartialHit;            // 8 bytes
+    unsigned long long threadPartialFalseDetect;    // 8 bytes
  #ifdef multiDetect
-    unsigned long threadPartialCorrect_2;   // 8 bytes
-    unsigned long threadPartialCorrect_3;   // 8 bytes
-    int padding[10];                        // 40 bytes
+    unsigned long long threadPartialHit_2;          // 8 bytes
+    unsigned long long threadPartialFalseDetect_2;  // 8 bytes
+    unsigned long long threadPartialHit_3;          // 8 bytes
+    unsigned long long threadPartialFalseDetect_3;  // 8 bytes
+    int padding[2];                                // 16 bytes
  #else
-    int padding[14];                        // 56 bytes
+    int padding[10];                                // 40 bytes
  #endif
-}threadPartialCorrect_t;
+}threadPartialResult_t;
 
 int numOfCores = 0;
 int curThreadIndex = 0;
 pthread_mutex_t threadIndexLock;
-threadPartialCorrect_t *threadPartialCorrect;
+threadPartialResult_t *threadPartialResult;
 int *retVal;
 #endif
 
@@ -108,22 +118,22 @@ int main( int argc, char **argv  )
     capture.release();
 
 #ifdef jumpFrame
-    unsigned long numOfDetectFrame = numOfFrame/jumpFrame;
-    cout << " Frame Jumping Rate : " << jumpFrame << endl;
-#else
-    unsigned long numOfDetectFrame = numOfFrame;
+    cout << " [SAMPLING RATE]  1 : " << jumpFrame << " frames" << endl;
 #endif
-    cout << " Detecting [ " << numOfDetectFrame << " / " << numOfFrame << " ] frames ..." <<  endl;
 
     pthread_mutex_init(&threadIndexLock, NULL);
-    threadPartialCorrect = (threadPartialCorrect_t *)malloc(numOfCores * sizeof(threadPartialCorrect_t));
+    threadPartialResult = (threadPartialResult_t *)malloc(numOfCores * sizeof(threadPartialResult_t));
     threadPool = (pthread_t *)malloc(numOfCores * sizeof(pthread_t));
 
     for(i=0; i<numOfCores; i++){
-        threadPartialCorrect[i].threadPartialCorrect = 0;
+        threadPartialResult[i].threadPartialNumOfObject = 0;
+        threadPartialResult[i].threadPartialHit = 0;
+        threadPartialResult[i].threadPartialFalseDetect = 0;
     #ifdef multiDetect
-        threadPartialCorrect[i].threadPartialCorrect_2 = 0;
-        threadPartialCorrect[i].threadPartialCorrect_3 = 0;
+        threadPartialResult[i].threadPartialHit_2 = 0;
+        threadPartialResult[i].threadPartialFalseDetect_2 = 0;
+        threadPartialResult[i].threadPartialHit_3 = 0;
+        threadPartialResult[i].threadPartialFalseDetect_3 = 0;
     #endif
 
     }
@@ -136,23 +146,42 @@ int main( int argc, char **argv  )
             pthread_join(threadPool[i], NULL);
 
     for(i=0; i<numOfCores; i++){
-        numOfCorrectFrame += threadPartialCorrect[i].threadPartialCorrect;
+        numOfObject += threadPartialResult[i].threadPartialNumOfObject;
+        numOfHit += threadPartialResult[i].threadPartialHit;
+        numOfFalseDetect += threadPartialResult[i].threadPartialFalseDetect;
     #ifdef multiDetect
-        numOfCorrectFrame_2 += threadPartialCorrect[i].threadPartialCorrect_2;
-        numOfCorrectFrame_3 += threadPartialCorrect[i].threadPartialCorrect_3;
+        numOfHit_2 += threadPartialResult[i].threadPartialHit_2;
+        numOfFalseDetect_2 += threadPartialResult[i].threadPartialFalseDetect_2;
+        numOfHit_3 += threadPartialResult[i].threadPartialHit_3;
+        numOfFalseDetect_3 += threadPartialResult[i].threadPartialFalseDetect_3;
     #endif
     }
 
 
-    cout << "[Classifier 1] #Correct : [ " << numOfCorrectFrame << " / " << numOfDetectFrame << " ]" << endl;
+    cout << "\n\n==================== DETECTION RESULT ====================" << endl;
+    cout << "\n[Classifier 1] - PURPLE"
+    << "\n  Classifer:\t" << obj_cascade_name
+    << "\n  Hit Rate:\t" << numOfHit << " / " << numOfObject
+    << "\n  False Detect:\t" << numOfFalseDetect
+    << "\n  Accuracy:\t" << (float)numOfHit/(numOfObject+numOfFalseDetect) << endl;
+
 #ifdef multiDetect
-    cout << "[Classifier 2] #Correct : [ " << numOfCorrectFrame_2 << " / " << numOfDetectFrame << " ]" << endl;
-    cout << "[Classifier 3] #Correct : [ " << numOfCorrectFrame_3 << " / " << numOfDetectFrame << " ]" << endl;
+    cout << "\n[Classifier 2] - BLUE"
+    << "\n  Classifer:\t" << obj2_cascade_name
+    << "\n  Hit Rate:\t" << numOfHit_2 << " / " << numOfObject
+    << "\n  False Detect:\t" << numOfFalseDetect_2
+    << "\n  Accuracy:\t" << (float)numOfHit_2/(numOfObject+numOfFalseDetect_2) << endl;
+
+    cout << "\n[Classifier 3] - YELLOW"
+    << "\n  Classifer:\t" << obj3_cascade_name
+    << "\n  Hit Rate:\t" << numOfHit_3 << " / " << numOfObject
+    << "\n  False Detect:\t" << numOfFalseDetect_3
+    << "\n  Accuracy:\t" << (float)numOfHit_3/(numOfObject+numOfFalseDetect_3) << endl;
 #endif
 
     pthread_mutex_destroy(&threadIndexLock);
     free(threadPool);
-    free(threadPartialCorrect);
+    free(threadPartialResult);
 
     return 0;
 }
@@ -162,9 +191,12 @@ int main( int argc, char **argv  )
 void * handler(void* parameters)
 {
     int myThreadIndex;
-    unsigned long framePerThread = numOfFrame/numOfCores;
-    unsigned long frameCount;
-    unsigned long partialCorrectFrame;
+    unsigned long long framePerThread = numOfFrame/numOfCores;
+    unsigned long long frameCount;
+    unsigned long long partialCorrectFrame;
+
+    int *answer;
+    unsigned long long i;       // for array purpose
 
     VideoCapture capture;
     Mat frame;
@@ -198,19 +230,34 @@ void * handler(void* parameters)
         return (void *)retVal;
     }
 
-    numOfFrame = capture.get(CV_CAP_PROP_FRAME_COUNT);
+    //-- 3. Load "objPerFrame"
+    answer = new int[numOfFrame];
+
+    FILE *fp = fopen(answerFilename.c_str(), "r");
+    if(!fp){ cout << "--(!)Error loading objPerFrame_file" << endl; *retVal=-1; return (void*)retVal;}
+
+    for(i=0; i<numOfFrame; i++){
+        if(feof(fp))
+            break;
+
+        fscanf(fp, "%d", &answer[i]);
+    }
+
+    fclose(fp);
 
 #ifdef scaleInput
     capture.set(CV_CAP_PROP_FRAME_WIDTH, 16 * scaleInput);      // Ratio = 16 : 9
     capture.set(CV_CAP_PROP_FRAME_HEIGHT, 9 * scaleInput);
 #endif
 
-    for(;;){
     #ifdef jumpFrame
-	if(! capture.set(CV_CAP_PROP_POS_FRAMES, frameCount += jumpFrame)) { cout << "error jumpFrame"; *retVal=-1; return (void*)retVal; }
+    for(;;frameCount += jumpFrame)
     #else
-        frameCount++;
+    for(;;frameCount ++)
     #endif
+    {
+	if(! capture.set(CV_CAP_PROP_POS_FRAMES, frameCount)) { cout << "error jumpFrame"; *retVal=-1; return (void*)retVal; }
+
 	if( frameCount >= (myThreadIndex+1)*framePerThread || !capture.read(frame) )  // frameCount check
             break;
     #ifdef scaleInput
@@ -234,7 +281,7 @@ void * handler(void* parameters)
         #endif
 
 
-            cout << "[ frame #" << frameCount << " ]"
+            cout << " [" << myThreadIndex << "] frame #" << frameCount << " , #ans: " << answer[frameCount]
             << endl << "\t" << obj_cascade_name << ": " << objs.size()
         #ifdef multiDetect
             << endl << "\t" << obj2_cascade_name << ": " << objs2.size()
@@ -242,14 +289,18 @@ void * handler(void* parameters)
         #endif
             << endl;
 
+            threadPartialResult[myThreadIndex].threadPartialNumOfObject += answer[frameCount];
+
             for( size_t i = 0; i < objs.size() ; i++ )
             {
         	Point upperLeft_1( objs[i].x, objs[i].y );
         	Point bottomRight_1( objs[i].x + objs[i].width, objs[i].y + objs[i].height );
         	rectangle( frame, upperLeft_1, bottomRight_1, Scalar( 255, 0, 255 ), 2, 8, 0 );
             }
-            if( objs.size() <= numOfTolerant)
-                threadPartialCorrect[myThreadIndex].threadPartialCorrect ++;
+            if( objs.size() == answer[frameCount])
+                threadPartialResult[myThreadIndex].threadPartialHit ++;
+            threadPartialResult[myThreadIndex].threadPartialFalseDetect += ( objs.size() - answer[frameCount] );
+
 
         #ifdef multiDetect
             for( size_t i = 0; i < objs2.size() ; i++ )
@@ -258,8 +309,9 @@ void * handler(void* parameters)
         	Point bottomRight_2( objs2[i].x + objs2[i].width, objs2[i].y + objs2[i].height );
         	rectangle( frame, upperLeft_2, bottomRight_2, Scalar( 255, 255, 0 ), 2, 8, 0 );
             }
-            if(objs2.size() <= numOfTolerant)
-                threadPartialCorrect[myThreadIndex].threadPartialCorrect_2 ++;
+            if( objs2.size() == answer[frameCount])
+                threadPartialResult[myThreadIndex].threadPartialHit_2 ++;
+            threadPartialResult[myThreadIndex].threadPartialFalseDetect_2 += ( objs2.size() - answer[frameCount] );
 
             for( size_t i = 0; i < objs3.size() ; i++ )
             {
@@ -267,8 +319,9 @@ void * handler(void* parameters)
         	Point bottomRight_3( objs3[i].x + objs3[i].width, objs3[i].y + objs3[i].height );
         	rectangle( frame, upperLeft_3, bottomRight_3, Scalar( 0, 255, 255 ), 2, 8, 0 );
             }
-            if(objs3.size() <= numOfTolerant)
-                threadPartialCorrect[myThreadIndex].threadPartialCorrect_3 ++;
+            if( objs3.size() == answer[frameCount])
+                threadPartialResult[myThreadIndex].threadPartialHit_3 ++;
+            threadPartialResult[myThreadIndex].threadPartialFalseDetect_3 += ( objs3.size() - answer[frameCount] );
 
         #endif
             //-- Show what you got
