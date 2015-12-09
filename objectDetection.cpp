@@ -23,7 +23,7 @@
 #define parallel            // uncomment to run objectDetection in sequential (PENDING..)
 #define classifier_read     // uncomment to load classifier in each thread instead of read
 
-#define taskset 16          // correct the numOfCore when program is run with taskset
+#define taskset 4          // correct the numOfCore when program is run with taskset
 
 
 using namespace std;
@@ -35,9 +35,9 @@ void *handler(void* parameters);
 
 /** Global variables */
 //-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
-String obj_cascade_name = "classifier/frontal_pos3000_stg14.xml";
-String obj2_cascade_name = "classifier/frontal_pos5000_stg14.xml";
-String obj3_cascade_name = "classifier/frontal_pos7000_stg14.xml";
+String obj_cascade_name = "classifier/frontal_pos5000_stg14.xml";
+String obj2_cascade_name = "classifier/frontal_pos7000_stg14.xml";
+String obj3_cascade_name = "classifier/posSet2_negSet1_pos5000_stg14.xml";
 
 
 string window_name = "Object detection";
