@@ -1,0 +1,1686 @@
+ [SAMPLING RATE]  1 : 30 frames
+ [5] frame #7695 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 5
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [6] frame #9234 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6156 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #10773 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #7725 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 10
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [0] frame #0 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #4617 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #1539 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [2] frame #3078 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #7755 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [6] frame #9264 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #10803 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [4] frame #6186 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #3108 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [5] frame #7785 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 6
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [6] frame #9294 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [0] frame #30 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #6216 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [5] frame #7815 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 23
+ [3] frame #4647 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #10833 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [1] frame #1569 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #6246 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [6] frame #9324 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #7845 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 13
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [2] frame #3138 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #10863 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [0] frame #60 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #9354 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [5] frame #7875 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 11
+ [3] frame #4677 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [4] frame #6276 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #1599 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #9384 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #10893 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [2] frame #3168 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #6306 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [5] frame #7905 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #90 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #9414 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [4] frame #6336 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #10923 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 12
+ [5] frame #7935 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [1] frame #1629 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #4707 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #9444 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [0] frame #120 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [2] frame #3198 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [4] frame #6366 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [5] frame #7965 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #10953 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 16
+ [6] frame #9474 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6396 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [0] frame #150 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #1659 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #7995 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [7] frame #10983 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 9
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [2] frame #3228 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #8025 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [3] frame #4737 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #11013 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 12
+ [4] frame #6426 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #180 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #9504 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #8055 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [1] frame #1689 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #8085 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 12
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [7] frame #11043 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [4] frame #6456 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [2] frame #3258 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [5] frame #8115 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 9
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [6] frame #9534 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [0] frame #210 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #4767 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #8145 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [4] frame #6486 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [7] frame #11073 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 11
+ [1] frame #1719 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [6] frame #9564 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #8175 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #240 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #3288 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #6516 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [6] frame #9594 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [1] frame #1749 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [7] frame #11103 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [5] frame #8205 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #4797 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #9624 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [0] frame #270 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [4] frame #6546 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #1779 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #8235 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #9654 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 11
+ [7] frame #11133 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [5] frame #8265 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6576 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #9684 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [0] frame #300 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [2] frame #3318 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #1809 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [3] frame #4827 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [6] frame #9714 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 9
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [4] frame #6606 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #11163 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 14
+ [5] frame #8295 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #330 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [6] frame #9744 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 4
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [1] frame #1839 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [4] frame #6636 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #3348 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #11193 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 15
+ [5] frame #8325 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [0] frame #360 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #9774 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [5] frame #8355 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [4] frame #6666 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [6] frame #9804 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [3] frame #4857 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #390 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [7] frame #11223 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 13
+ [2] frame #3378 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #8385 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #1869 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #9834 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [4] frame #6696 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [0] frame #420 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #8415 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #11253 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [6] frame #9864 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #1899 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [5] frame #8445 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [4] frame #6726 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #450 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #4887 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #3408 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #8475 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [6] frame #9894 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [0] frame #480 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6756 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [7] frame #11283 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [5] frame #8505 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #1929 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #9924 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #510 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [4] frame #6786 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #11313 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 14
+ [5] frame #8535 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [2] frame #3438 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #4917 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #9954 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #540 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [7] frame #11343 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [5] frame #8565 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [4] frame #6816 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #1959 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #9984 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #8595 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [0] frame #570 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [7] frame #11373 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [2] frame #3468 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #4947 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [4] frame #6846 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #8625 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #10014 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [0] frame #600 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [5] frame #8655 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [6] frame #10044 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [7] frame #11403 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #1989 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #6876 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [5] frame #8685 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [3] frame #4977 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #3498 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #10074 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [5] frame #8715 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #630 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6906 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #11433 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #10104 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [5] frame #8745 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [1] frame #2019 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5007 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [2] frame #3528 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #8775 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #10134 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #660 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6936 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #8805 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #3558 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5037 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [6] frame #10164 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #2049 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [7] frame #11463 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #8835 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #6966 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [6] frame #10194 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #2079 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [0] frame #690 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #3588 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [5] frame #8865 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 4
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [7] frame #11493 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #5067 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #10224 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [4] frame #6996 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #2109 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #8895 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #10254 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #11523 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [2] frame #3618 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #2139 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [0] frame #720 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5097 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [4] frame #7026 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [5] frame #8925 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [6] frame #10284 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [5] frame #8955 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [6] frame #10314 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [2] frame #3648 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #11553 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #8985 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [4] frame #7056 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [1] frame #2169 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #10344 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [3] frame #5127 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #750 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [5] frame #9015 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 13
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [2] frame #3678 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [4] frame #7086 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #10374 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [5] frame #9045 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #11583 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #2199 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #5157 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [4] frame #7116 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [2] frame #3708 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [0] frame #780 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [5] frame #9075 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 10
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [6] frame #10404 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [7] frame #11613 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [1] frame #2229 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [7] frame #11643 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [5] frame #9105 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [6] frame #10434 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [4] frame #7146 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #3738 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [3] frame #5187 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #11673 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [4] frame #7176 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #810 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #10464 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [5] frame #9135 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #11703 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #2259 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #3768 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #7206 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [6] frame #10494 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [3] frame #5217 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [5] frame #9165 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [1] frame #2289 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [4] frame #7236 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #11733 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #840 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #3798 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [6] frame #10524 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 11
+ [3] frame #5247 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #7266 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [5] frame #9195 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [6] frame #10554 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 16
+ [1] frame #2319 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [7] frame #11763 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [4] frame #7296 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 14
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 13
+ [2] frame #3828 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [0] frame #870 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [5] frame #9225 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 10
+ [4] frame #7326 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 11
+ [3] frame #5277 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #10584 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #11793 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #3858 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [1] frame #2349 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #7356 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [6] frame #10614 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #11823 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5307 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [6] frame #10644 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 14
+ [4] frame #7386 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [2] frame #3888 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #900 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [6] frame #10674 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 11
+ [7] frame #11853 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #7416 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #2379 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #11883 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [6] frame #10704 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [4] frame #7446 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [3] frame #5337 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #3918 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [4] frame #7476 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 4
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [7] frame #11913 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #930 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #10734 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [4] frame #7506 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [1] frame #2409 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5367 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #7536 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #11943 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [6] frame #10764 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [2] frame #3948 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #7566 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [7] frame #11973 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [4] frame #7596 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #960 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #7626 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 3
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [1] frame #2439 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #5397 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [4] frame #7656 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 8
+ [7] frame #12003 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [2] frame #3978 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [4] frame #7686 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 15
+ [7] frame #12033 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [7] frame #12063 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #2469 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #990 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5427 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #12093 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [2] frame #4008 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #2499 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #12123 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #5457 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #1020 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4038 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [7] frame #12153 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #2529 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [7] frame #12183 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 7
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [3] frame #5487 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #4068 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #2559 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 9
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #12213 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [0] frame #1050 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #12243 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [3] frame #5517 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4098 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #2589 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [7] frame #12273 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #1080 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [7] frame #12303 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 9
+ [2] frame #4128 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [1] frame #2619 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #5547 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #1110 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4158 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #2649 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [3] frame #5577 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #4188 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #1140 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [1] frame #2679 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #5607 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #1170 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #4218 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #2709 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #1200 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #5637 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #4248 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #2739 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #4278 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #1230 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #2769 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5667 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4308 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #4338 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #2799 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #1260 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [2] frame #4368 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 8
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [3] frame #5697 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4398 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #1290 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [1] frame #2829 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4428 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5727 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #1320 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [2] frame #4458 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #2859 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [0] frame #1350 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [2] frame #4488 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5757 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4518 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [0] frame #1380 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #2889 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5787 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [2] frame #4548 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [1] frame #2919 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #1410 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 6
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [2] frame #4578 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #5817 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #1440 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 5
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [1] frame #2949 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5847 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [2] frame #4608 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [0] frame #1470 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 5
+ [1] frame #2979 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 7
+ [3] frame #5877 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #1500 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #3009 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 6
+ [3] frame #5907 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [0] frame #1530 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 4
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [1] frame #3039 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5937 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [1] frame #3069 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 4
+ [3] frame #5967 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #5997 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 1
+ [3] frame #6027 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 3
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #6057 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #6087 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 2
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+ [3] frame #6117 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 1
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 3
+ [3] frame #6147 , #ans: 1
+	classifier/frontal_pos5000_stg14.xml: 1
+	classifier/frontal_pos5000_negCase3_stg14.xml: 2
+	classifier/frontal+side_pos5000_negCase3_stg14.xml: 2
+
+
+==================== DETECTION RESULT ====================
+
+[Classifier 1] - PURPLE
+  Classifer:	classifier/frontal_pos5000_stg14.xml
+  Hit Rate:	354 / 416
+  False Detect:	89
+  Accuracy:	0.70099
+
+[Classifier 2] - BLUE
+  Classifer:	classifier/frontal_pos5000_negCase3_stg14.xml
+  Hit Rate:	98 / 416
+  False Detect:	976
+  Accuracy:	0.0704023
+
+[Classifier 3] - YELLOW
+  Classifer:	classifier/frontal+side_pos5000_negCase3_stg14.xml
+  Hit Rate:	70 / 416
+  False Detect:	1421
+  Accuracy:	0.0381056
