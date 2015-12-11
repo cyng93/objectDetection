@@ -35,9 +35,9 @@ void *handler(void* parameters);
 
 /** Global variables */
 //-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
-String obj_cascade_name = "classifier/frontal_pos5000_stg14.xml";
-String obj2_cascade_name = "classifier/frontal_pos7000_stg14.xml";
-String obj3_cascade_name = "classifier/posSet2_negSet1_pos5000_stg14.xml";
+String obj_cascade_name = "classifier/frontal_negSet1_pos7000_stg14.xml";
+String obj2_cascade_name = "classifier/frontal_negSet1_pos7000_stg20.xml";
+String obj3_cascade_name = "classifier/frontal_negSet1_pos7000_stg30.xml";
 
 
 string window_name = "Object detection";
