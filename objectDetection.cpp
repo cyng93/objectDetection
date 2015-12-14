@@ -23,7 +23,7 @@
 #define parallel            // uncomment to run objectDetection in sequential (PENDING..)
 #define classifier_read     // uncomment to load classifier in each thread instead of read
 
-#define taskset 4          // correct the numOfCore when program is run with taskset
+#define taskset 16          // correct the numOfCore when program is run with taskset
 
 
 using namespace std;
@@ -38,7 +38,7 @@ void *handler(void* parameters);
 String obj_cascade_name_1 = "classifier/frontal_negSet1_pos7000_stg14.xml";
 String obj_cascade_name_2 = "classifier/frontal_negSet2_pos7000_stg14.xml";
 String obj_cascade_name_3 = "classifier/frontal_negSet1+negScene_pos7000_stg14.xml";
-String obj_cascade_name_4 = "classifier/frontal_negSet1+negScene_pos7000_stg14.xml";
+String obj_cascade_name_4 = "classifier/frontal_negSet2+negScene_pos7000_stg14.xml";
 
 string window_name = "Object detection";
 RNG rng(12345);
