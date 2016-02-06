@@ -26,11 +26,6 @@
 *.sql
 *.sqlite
 
-# Vim swap #
-############
-*.swp
-
-
 # OS generated files #
 ######################
 .DS_Store
@@ -40,3 +35,11 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Self Custom #
+###############
+*.swp
+*.pyc
+*.jpg
+*.png
+
