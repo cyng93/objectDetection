@@ -13,12 +13,18 @@
 
 #include <pthread.h>
 #include <sys/sysinfo.h>
+#include <sys/types.h>
+#include <dirent.h>
 
 #define scaleInput 40        // WIDTH=16*n    HEIGHT=9*n
 #define jumpFrame 30        // uncomment to detect all frame
 #define outputFrame         // uncomment to disable writing frame to directory
 #define numOfTolerant 2
-#define multiDetect 4       // uncomment to detect with only one classifier
+
+//#define multiDetect 1       // uncomment to detect with only one classifier
+#ifndef multiDetect
+  #define multiDetect 1
+#endif
 
 #define parallel            // uncomment to run objectDetection in sequential (PENDING..)
 #define classifier_read     // uncomment to load classifier in each thread instead of read
@@ -35,46 +41,44 @@ void *handler(void* parameters);
 
 /** Global variables */
 //-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
-#ifdef multiDetect
-String obj_cascade_name[multiDetect] =	{ "classifier/frontal_negSet1_pos7000_stg14.xml"
-					#if multiDetect > 1
-										, "classifier/frontal_negSet2_pos7000_stg14.xml"
-					#endif
-					#if multiDetect > 2
-										, "classifier/frontal_negSet1+negScene_pos7000_stg14.xml"
-					#endif
-					#if multiDetect > 3
-										, "classifier/frontal_negSet2+negScene_pos7000_stg14.xml"
-					#endif
-										};
+String obj_cascade_name[multiDetect] =	{
+                                            "classifier/frontal_negSet1_pos7000_stg14.xml"
+				        #if multiDetect > 1
+					    , "classifier/frontal_negSet2_pos7000_stg14.xml"
+				        #endif
+				        #if multiDetect > 2
+				            , "classifier/frontal_negSet1+negScene_pos7000_stg14.xml"
+				        #endif
+				        #if multiDetect > 3
+				            , "classifier/frontal_negSet2+negScene_pos7000_stg14.xml"
+				        #endif
+				        };
 
-String obj_rect_color[multiDetect] =	{ "PINK"
+String obj_rect_color[multiDetect] =	{
+                                            "PINK"
 					#if multiDetect > 1
-										, "BLUE"
+					    , "BLUE"
 					#endif
 					#if multiDetect > 2
-										, "YELLOW"
+					    , "YELLOW"
 					#endif
 					#if multiDetect > 3
-										, "GREEN"
+					    , "GREEN"
 					#endif
-										};
-									
-const Scalar obj_scalar[multiDetect] =	{ Scalar(255, 0 ,255)
+				        };
+
+const Scalar obj_scalar[multiDetect] =	{
+                                            Scalar(255, 0 ,255)
 					#if multiDetect > 1
-										, Scalar(255, 0 , 0)
+					    , Scalar(255, 0 , 0)
 					#endif
 					#if multiDetect > 2
-										, Scalar(0, 255, 255)
+					    , Scalar(0, 255, 255)
 					#endif
 					#if multiDetect > 3
-										, Scalar(0, 255, 0)
+					    , Scalar(0, 255, 0)
 					#endif
-										};
-#else
-String obj_cascade_name = "classifier/frontal_negSet1_pos7000_stg14.xml";
-String obj_rect_color = "PINK";
-#endif
+					};
 
 string window_name = "Object detection";
 RNG rng(12345);
@@ -84,19 +88,14 @@ unsigned long long numOfFrame = 0;
 unsigned long long numOfObject = 0;
 
 
-#ifdef multiDetect
 unsigned long long numOfHit[multiDetect] = {0};
 unsigned long long numOfFalseDetect[multiDetect] = {0};
-#else
-unsigned long long numOfHit = 0;
-unsigned long long numOfFalseDetect = 0;
-#endif
 
 String videoFilename = "testVideo/oriVideo.mov";
 String answerFilename = "answer.txt";
 
 #ifdef outputFrame
-String outputFilePrefix  = "./outputFrame/frame_";
+String outputFilePrefix  = "./_detectResult/frame_";
 String outputFileType = ".png";
 stringstream ss;
 String outputFilename;
@@ -104,17 +103,10 @@ String outputFilename;
 
 #ifdef parallel
 typedef struct partialResult_padding_t{
- #ifdef multiDetect
-    unsigned long long threadPartialNumOfObject;				// 8 bytes
-	unsigned long long threadPartialHit[multiDetect];			// 8 bytes * n
-	unsigned long long threadPartialFalseDetect[multiDetect];	// 8 bytes * n
-	int padding[(64-((multiDetect*16 + 8)%64))/4];
- #else
-    unsigned long long threadPartialNumOfObject;   // 8 bytes
-    unsigned long long threadPartialHit;         // 8 bytes
-    unsigned long long threadPartialFalseDetect; // 8 bytes
-    int padding[10];                               // 40 bytes
- #endif
+    unsigned long long threadPartialNumOfObject;		// 8 bytes
+    unsigned long long threadPartialHit[multiDetect];		// 8 bytes * n
+    unsigned long long threadPartialFalseDetect[multiDetect];	// 8 bytes * n
+    int padding[(64-((multiDetect*16 + 8)%64))/4];
 }threadPartialResult_t;
 
 int numOfCores = 0;
@@ -125,23 +117,19 @@ int *retVal;
 #endif
 
 #ifdef classifier_read
-  #ifdef multiDetect
-	FileStorage fs0(obj_cascade_name[0], FileStorage::READ);
-	#if multiDetect > 1
-	FileStorage fs1(obj_cascade_name[1], FileStorage::READ);
-	#endif
-	#if multiDetect > 2
-	FileStorage fs2(obj_cascade_name[2], FileStorage::READ);
-	#endif
-	#if multiDetect > 3
-	FileStorage fs3(obj_cascade_name[3], FileStorage::READ);
-	#endif
-	// #if multiDetect > N 
-	// FileStorage tmpN(obj_cascade_name[N], FileStorage::READ);
-	// #endif
-  #else
-  FileStorage fs(obj_cascade_name, FileStorage::READ);
-  #endif
+    FileStorage fs0(obj_cascade_name[0], FileStorage::READ);
+    #if multiDetect > 1
+    FileStorage fs1(obj_cascade_name[1], FileStorage::READ);
+    #endif
+    #if multiDetect > 2
+    FileStorage fs2(obj_cascade_name[2], FileStorage::READ);
+    #endif
+    #if multiDetect > 3
+    FileStorage fs3(obj_cascade_name[3], FileStorage::READ);
+    #endif
+    // #if multiDetect > N
+    // FileStorage tmpN(obj_cascade_name[N], FileStorage::READ);
+    // #endif
 #endif
 
 /**
@@ -166,26 +154,16 @@ int main( int argc, char **argv  )
     numOfFrame = capture.get(CV_CAP_PROP_FRAME_COUNT);
     capture.release();
 
-#ifdef jumpFrame
-    cout << " [SAMPLING RATE]  1 : " << jumpFrame << " frames" << endl;
-#endif
-
     pthread_mutex_init(&threadIndexLock, NULL);
     threadPartialResult = (threadPartialResult_t *)malloc(numOfCores * sizeof(threadPartialResult_t));
     threadPool = (pthread_t *)malloc(numOfCores * sizeof(pthread_t));
 
     for(i=0; i<numOfCores; i++){
-		#ifdef multiDetect
-		threadPartialResult[i].threadPartialNumOfObject = 0;
-		for(j=0; j<multiDetect; j++){
+	threadPartialResult[i].threadPartialNumOfObject = 0;
+	for(j=0; j<multiDetect; j++){
     	    threadPartialResult[i].threadPartialHit[j] = 0;
     	    threadPartialResult[i].threadPartialFalseDetect[j] = 0;
-		}
-		#else
-		threadPartialResult[i].threadPartialNumOfObject = 0;
-    	threadPartialResult[i].threadPartialHit = 0;
-    	threadPartialResult[i].threadPartialFalseDetect = 0;
-    	#endif
+	}
     }
 
     // thread creation
@@ -196,35 +174,21 @@ int main( int argc, char **argv  )
             pthread_join(threadPool[i], NULL);
 
     for(i=0; i<numOfCores; i++){
-	#ifdef multiDetect
         numOfObject += threadPartialResult[i].threadPartialNumOfObject;
-		for(j=0; j<multiDetect; j++){
-			numOfHit[j] += threadPartialResult[i].threadPartialHit[j];
-			numOfFalseDetect[j] += threadPartialResult[i].threadPartialFalseDetect[j];
+	for(j=0; j<multiDetect; j++){
+	    numOfHit[j] += threadPartialResult[i].threadPartialHit[j];
+	    numOfFalseDetect[j] += threadPartialResult[i].threadPartialFalseDetect[j];
         }
-    #else
-        numOfObject += threadPartialResult[i].threadPartialNumOfObject;
-        numOfHit += threadPartialResult[i].threadPartialHit;
-        numOfFalseDetect += threadPartialResult[i].threadPartialFalseDetect;
-    #endif
     }
 
     cout << "\n\n==================== DETECTION RESULT ====================" << endl;
-#ifdef multiDetect
-	for(j=0; j<multiDetect; j++){
-		cout << "\n[Classifier " << j+1 << "] - " << obj_rect_color[j]
-    	<< "\n  Classifer:\t" << obj_cascade_name[j]
-    	<< "\n  Hit Rate:\t" << numOfHit[j] << " / " << numOfObject
-    	<< "\n  False Detect:\t" << numOfFalseDetect[j]
-    	<< "\n  Accuracy:\t" << (float)numOfHit[j]/(numOfObject+numOfFalseDetect[j]) << endl;
-	}
-#else
-    cout << "\n[Classifier 1] - " << obj_rect_color
-    << "\n  Classifer:\t" << obj_cascade_name
-    << "\n  Hit Rate:\t" << numOfHit << " / " << numOfObject
-    << "\n  False Detect:\t" << numOfFalseDetect
-    << "\n  Accuracy:\t" << (float)numOfHit/(numOfObject+numOfFalseDetect) << endl;
-#endif
+    for(j=0; j<multiDetect; j++){
+        cout << "\n[Classifier " << j+1 << "] - " << obj_rect_color[j]
+        << "\n  Classifer:\t" << obj_cascade_name[j]
+        << "\n  Hit Rate:\t" << numOfHit[j] << " / " << numOfObject
+        << "\n  False Detect:\t" << numOfFalseDetect[j]
+        << "\n  Accuracy:\t" << (float)numOfHit[j]/(numOfObject+numOfFalseDetect[j]) << endl;
+    }
 
     pthread_mutex_destroy(&threadIndexLock);
     free(threadPool);
@@ -257,33 +221,22 @@ void * handler(void* parameters)
     frameCount = (myThreadIndex * framePerThread);
 
     //-- 1. Read / Load the cascades
-#ifdef multiDetect
-	CascadeClassifier obj_cascade[multiDetect];
-  #ifdef classifier_read
+    CascadeClassifier obj_cascade[multiDetect];
+#ifdef classifier_read
+    if( !obj_cascade[0].read( fs0.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+  #if multiDetect > 1
+    if( !obj_cascade[1].read( fs1.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+  #endif
+  #if multiDetect > 2
+    if( !obj_cascade[2].read( fs2.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+  #endif
+  #if multiDetect > 3
+    if( !obj_cascade[3].read( fs3.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
+  #endif
 
-	if( !obj_cascade[0].read( fs0.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-    #if multiDetect > 1
-	if( !obj_cascade[1].read( fs1.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-	#endif
-	#if multiDetect > 2
-	if( !obj_cascade[2].read( fs2.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-	#endif
-	#if multiDetect > 3
-	if( !obj_cascade[3].read( fs3.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-	#endif
-    
-  #else
-	for(j=0; j<multiDetect; j++)
-		if( !obj_cascade[j].load( obj_cascade_name[j] ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-  #endif
 #else
-    CascadeClassifier obj_cascade;
-  #ifdef classifier_read
-	fs.open(obj_cascade_name, cv::FileStorage::READ);
-    if( !obj_cascade.read( fs.getFirstTopLevelNode() ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-  #else
-	if( !obj_cascade.load( obj_cascade_name ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
-  #endif
+    for(j=0; j<multiDetect; j++)
+	if( !obj_cascade[j].load( obj_cascade_name[j] ) ){ printf("--(!)Error loading\n"); *retVal=-1; return (void*)retVal; }
 #endif
 
 
@@ -344,48 +297,32 @@ void * handler(void* parameters)
         equalizeHist( frame_gray, frame_gray );
         //-- Detect objs
 
-	#ifdef multiDetect
-		for(j=0; j<multiDetect; j++)
-			obj_cascade[j].detectMultiScale( frame_gray, objs[j], 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
-    #else
-		obj_cascade.detectMultiScale( frame_gray, objs, 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
-	#endif
+	for(j=0; j<multiDetect; j++){
+	    obj_cascade[j].detectMultiScale( frame_gray, objs[j], 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
+        }
 
 
         cout << " [" << myThreadIndex << "] frame #" << frameCount << " , #ans: " << answer[frameCount] << endl;
-	#ifdef multiDetect
-		for(j=0; j<multiDetect; j++)
-			cout << endl << "\t" << obj_cascade_name[j] << ": " << objs[j].size();
-	#else
-        cout << endl << "\t" << obj_cascade_name << ": " << objs.size();
-    #endif
+
+        for(j=0; j<multiDetect; j++){
+	    cout << endl << "\t" << obj_cascade_name[j] << ": " << objs[j].size();
+        }
+
         cout << endl;
 
         threadPartialResult[myThreadIndex].threadPartialNumOfObject += answer[frameCount];
 
-    #ifdef multiDetect
-		for(j=0; j<multiDetect; j++){
-			for( size_t i = 0; i < objs[j].size() ; i++ )
-        	{
-    		Point upperLeft( objs[j][i].x, objs[j][i].y );
-    		Point bottomRight( objs[j][i].x + objs[j][i].width, objs[j][i].y + objs[j][i].height );
-    		rectangle( frame, upperLeft, bottomRight, obj_scalar[j], 2, 8, 0 );
-        	}
-        	if( objs[j].size() == answer[frameCount])
-        	    threadPartialResult[myThreadIndex].threadPartialHit[j] ++;
-        	threadPartialResult[myThreadIndex].threadPartialFalseDetect[j] += ( objs[j].size() - answer[frameCount] );
-		}
-	#else
-        for( size_t i = 0; i < objs.size() ; i++ )
-        {
-    	Point upperLeft( objs[i].x, objs[i].y );
-    	Point bottomRight( objs[i].x + objs[i].width, objs[i].y + objs[i].height );
-    	rectangle( frame, upperLeft_1, bottomRight_1, Scalar( 255, 0, 255 ), 2, 8, 0 );
-        }
-        if( objs.size() == answer[frameCount])
-            threadPartialResult[myThreadIndex].threadPartialHit ++;
-        threadPartialResult[myThreadIndex].threadPartialFalseDetect += ( objs.size() - answer[frameCount] );
-    #endif
+	for(j=0; j<multiDetect; j++){
+	    for( size_t i = 0; i < objs[j].size() ; i++ ){
+	        Point upperLeft( objs[j][i].x, objs[j][i].y );
+	        Point bottomRight( objs[j][i].x + objs[j][i].width, objs[j][i].y + objs[j][i].height );
+	        rectangle( frame, upperLeft, bottomRight, obj_scalar[j], 2, 8, 0 );
+	    }
+	    if( objs[j].size() == answer[frameCount]){
+	        threadPartialResult[myThreadIndex].threadPartialHit[j] ++;
+            }
+	    threadPartialResult[myThreadIndex].threadPartialFalseDetect[j] += ( objs[j].size() - answer[frameCount] );
+	}
 
         //-- Show what you got
         //imshow( window_name, frame );
