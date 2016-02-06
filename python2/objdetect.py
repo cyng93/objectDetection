@@ -7,7 +7,7 @@ from common import clock, draw_str
 
 
 help_message = '''
-USAGE: objdetect.py [--cascade <cascade_fn>] [<video_source>]
+USAGE: objdetect.py [--cascade <cascade_fn>] [--input <input_dir>] [--output <output_dir>]
 '''
 
 def detect(img, cascade):
@@ -25,22 +25,34 @@ if __name__ == '__main__':
     import os, sys, getopt
     print help_message
 
-    args, detect_src_dir = getopt.getopt(sys.argv[1:], '', ['cascade='])
-    try: detect_src_dir = detect_src_dir[0]
-    except: detect_src_dir = 0
+    args, detect_src_dir = getopt.getopt(sys.argv[1:], '', ['cascade=', 'input=', 'output='])
+    #try: detect_src_dir = detect_src_dir[0]
+    #except: detect_src_dir = 0
     args = dict(args)
     cascade_fn = args.get('--cascade')
+    input_dir = args.get('--input')
+    output_dir = args.get('--output')
 
     cascade = cv2.CascadeClassifier(cascade_fn)
 
-    for root, subdirs, files in os.walk(detect_src_dir):
+    try: os.stat(output_dir)
+    except: os.mkdir(output_dir)
+
+    for root, subdirs, files in os.walk(input_dir):
+        for subdir in subdirs:
+            try:
+                os.stat(os.path.join(output_dir, subdir))
+            except:
+                os.mkdir(os.path.join(output_dir, subdir))
+
         for filename in files:
             if filename.endswith(".jpg") or filename.endswith(".png"):
                 file_path = os.path.join(root, filename)
                 print('\t- file %s (full path: %s)' % (filename, file_path))
 
-                detect_src = file_path
-                img = cv2.imread(detect_src)
+                subdir = file_path.split('/')[1]
+
+                img = cv2.imread(file_path)
                 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
                 gray = cv2.equalizeHist(gray)
 
@@ -50,10 +62,10 @@ if __name__ == '__main__':
                 draw_rects(vis, rects, (0, 255, 0))
                 dt = clock() - t
 
-                draw_str(vis, (20, 20), 'classifier: %s' % cascade_fn)
-                draw_str(vis, (20, 40), 'time: %.1f ms' % (dt*1000))
+                draw_str(vis, (10, 20), 'classifier: %s' % cascade_fn)
+                draw_str(vis, (10, 40), 'time: %.1f ms' % (dt*1000))
                 #cv2.imshow('objdetect', vis)
-                cv2.imwrite('_result/'+filename, vis)
+                cv2.imwrite(os.path.join(output_dir, subdir, filename), vis)
 
                 #while True:
                 #    if 0xFF & cv2.waitKey(5) == 27:
